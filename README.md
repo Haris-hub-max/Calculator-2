@@ -3,39 +3,62 @@
 <html>
 <head>
   <title>Simple Calculator</title>
-  <style>
-    #calculator {
-      width: 300px;
-      margin: 50px auto;
-      padding: 20px;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    #display {
-      width: 100%;
-      height: 40px;
-      margin-bottom: 20px;
-      padding: 10px;
-      border: none;
-      border-radius: 10px;
-      font-size: 24px;
-      text-align: right;
-    }
-    .button {
-      width: 60px;
-      height: 40px;
-      margin: 5px;
-      padding: 10px;
-      border: none;
-      border-radius: 10px;
-      background-color: #f0f0f0;
-      cursor: pointer;
-    }
-    .button:hover {
-      background-color: #e0e0e0;
-    }
-  </style>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>.calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.number {
+    background-color: #add8e6; /* Light blue */
+}
+
+.operator {
+    background-color: #ffc107; /* Orange */
+}
+
+.equals {
+    background-color: #34c759; /* Green */
+    grid-column: 2/4;
+}
+
+.clear {
+    background-color: #ff3737; /* Red */
+    grid-column: 1/5;
+}
+</style>
 </head>
 <body>
   <div id="calculator">
