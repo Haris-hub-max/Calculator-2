@@ -17,7 +17,7 @@
             <button class="number" onclick="addNumber(4)">4</button>
             <button class="number" onclick="addNumber(5)">5</button>
             <button class="number" onclick="addNumber(6)">6</button>
-            <button class="operator" onclick="addOperator('*')">*</button>
+            <button class="operator" onclick="addOperator('*')">x</button>
             <button class="number" onclick="addNumber(1)">1</button>
             <button class="number" onclick="addNumber(2)">2</button>
             <button class="number" onclick="addNumber(3)">3</button>
