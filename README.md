@@ -61,7 +61,7 @@ function clearDisplay() {
     width: 300px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #000000;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -75,7 +75,7 @@ function clearDisplay() {
     padding: 10px;
     border: none;
     border-radius: 10px;
-    background-color: #fff;
+    background-color:#000000;
 }
 
 .buttons {
@@ -85,7 +85,7 @@ function clearDisplay() {
     margin-top: 20px;
 }
 
-button {
+button {n
     padding: 20px;
     font-size: 18px;
     border: none;
@@ -94,7 +94,7 @@ button {
 }
 
 .number {
-    background-color: #add8e6; /* Light blue */
+    background-color: #000000; /* Light blue */
 }
 
 .operator {
@@ -103,12 +103,12 @@ button {
 
 .equals {
     background-color: #34c759; /* Green */
-    grid-column: 2/4;
+    
 }
 
 .clear {
     background-color: #ff3737; /* Red */
-    grid-column: 1/5;
+    grid-column: 1/2
 }
 </style>
 </body>
