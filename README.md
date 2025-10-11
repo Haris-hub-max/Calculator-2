@@ -61,7 +61,7 @@ function clearDisplay() {
     width: 300px;
     margin: 50px auto;
     padding: 20px;
-    background-color: black;
+    background-color:;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -112,6 +112,7 @@ button {n
 }
       #body{
           background-color:black;
+        }
 </style>
 </body>
 </html>
