@@ -94,7 +94,7 @@ button {n
 }
 
 .number {
-    background-color: ; /* Light blue */
+    background-color:white ; /* Light blue */
 }
 
 .operator {
@@ -110,6 +110,8 @@ button {n
     background-color: #ff3737; /* Red */
     grid-column: 1/2
 }
+      #body{
+          background-color:black;
 </style>
 </body>
 </html>
