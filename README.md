@@ -1,7 +1,4 @@
-
-
-<!DOCTYPE html>
-<html>
+  <html>
   <head>
       <title>simple calculator</title>
     <style>
